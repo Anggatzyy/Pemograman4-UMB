@@ -14,9 +14,11 @@
         android:theme="@style/Theme.Firstproject"
         tools:targetApi="31">
         <activity
-            android:name=".loginactivity"
+            android:name=".StartActivity"
             android:exported="false" />
-        <!-- HomeActivity -->
+        <activity
+            android:name=".loginactivity"
+            android:exported="false" /> <!-- HomeActivity -->
         <activity
             android:name=".homeactivity"
             android:exported="true" /> <!-- MainActivity sebagai launcher -->
